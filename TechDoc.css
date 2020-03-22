@@ -1,3 +1,7 @@
+.main-section {
+    margin-left: 25%;
+}
+
 header {
     color: black;
     margin: 10px;
@@ -10,3 +14,36 @@ header {
     text-align: left;
     margin: 0px;
   }
+
+#navbar { 
+      display: block; 
+      position:fixed;
+      margin-right: 0;
+      border: 1px solid;
+      background-color: rgb(207, 197, 181);
+      height: 100%;
+      padding: 10px;
+  }
+
+  .nav-link {
+    text-decoration: none;    
+    position: relative;
+    line-height: 45px;
+    font-size: 20px;
+    border: 2px;
+    padding: 6px 2px 6px 2px;
+    border-style: solid;
+    border-color: #004465;
+    border-radius: 2rem
+  } 
+
+  @media  (max-width: 815px) {
+      #navbar {
+          position: fixed;
+          top: 100%;
+          right: 750px
+          
+      }
+  }
+
+  
